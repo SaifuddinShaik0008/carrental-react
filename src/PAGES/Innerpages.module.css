@@ -1,0 +1,11 @@
+.breadcrumb h1{
+padding: 20px;
+background-color: rgba(0,0,0,0.5);
+text-align: center;
+}
+
+.breadcrumb p{
+text-align: center;
+padding: 20px;
+background-color: rgba(0,0,0,0.5);
+}

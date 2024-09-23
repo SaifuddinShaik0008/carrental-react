@@ -1,0 +1,58 @@
+.head img{
+  width: 80px;
+  height:80px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 10px;
+  
+
+
+}
+.head img:hover{
+  background-color: #c04848;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+}
+.head{
+  border-bottom: 1px solid lightgray;
+} 
+.icons{
+  font-weight: 300;
+  font-size: 20px;
+}
+p{
+  text-align: justify;
+  font-size: medium;
+}
+.head li{
+  text-align: center;
+  
+}
+.card img{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+
+@media screen and (max-width: 600px) {
+ .head li{
+  border: 1px solid lightgrey;
+  margin-bottom: 10px;
+  border-radius: 10px;
+ }
+ .head li:hover{
+  background-color: #e09797;
+  color: white;
+  transition: 1s linear;
+ }
+}
+.carrace{
+  background-image: url(./ASSETS/IMAGES/form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
